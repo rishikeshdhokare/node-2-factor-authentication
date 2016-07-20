@@ -1,0 +1,11 @@
+{
+  "name": "node-authy",
+  "version": "1.0.0",
+  "description": "A simple project with node.js and authy",
+  "main": "app.js",
+  "dependencies": {
+    "authy": "^1.1.2",
+    "express": "~4.0.0",
+    "body-parser": "~1.0.1"
+  }
+}
