@@ -6,6 +6,7 @@ Prerequisites -
 
 Steps to run this project - 
   1. Open your terminal/command prompt
-  2. run command - npm install (this will install all the dependencies needed for the project)
+  2. run command - **npm install** (this will install all the dependencies needed for the project)
   3. Get your authy application key.
-  4. Paste it in the
+  4. Replace the actual key with 'your-auth-key' it in app.js
+  5. Once steps #1 to #4 are completed successfully, run **node app.js** to run the application.
