@@ -12,7 +12,7 @@ var port = process.env.PORT || 8080;
 var router = express.Router();
 
 router.get('/', function(req, res) {
-    res.json({ message: 'Hey there, welcome to project dragon!' });   
+    res.json({ message: 'Hey there!' });   
 });
 
 router.get('/register', function(req, res) {
@@ -67,4 +67,4 @@ app.use('/api', router);
 
 app.listen(port);
 
-console.log('Magic happens on port ' + port);
+console.log('Server started on port - ' + port);
